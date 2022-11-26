@@ -26,7 +26,7 @@ int main()
        blocknumber=fsys.addblock("file1",blocks[i]);
      }
 
-  fsys.delblock("file1",fsys.getfirstblock("file1"));
+  /*fsys.delblock("file1",fsys.getfirstblock("file1"));
 
   for (int i=1; i<=2048; i++)
      {
@@ -41,5 +41,5 @@ int main()
      }
 
   fsys.delblock("file2",blocknumber);
-
+*/
 }
